@@ -1,0 +1,9 @@
+This result highlights the significant difference of omega (dN/dS: non-synonymous substitution rate/synonymous substitution rate) between repeat-containing genes and genes without repeats across various clades of Tetrapoda.
+
+To generate the figure, run the following command on your Linux terminal by being in the same directory as input files:
+1. To generate the omega figure (Supplementary figure) with all the omega combined:
+Rscript omega_boxplot_all.r
+2. To generate the omega figure (Main figure) with only omega values less than 2:
+Rscript omega_boxplot_lessthantwo.r
+
+Note: The above scripts are R language scripts to it require that you have R installed in your Linux system with the desired packages and it is callable.
