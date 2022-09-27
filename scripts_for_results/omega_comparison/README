@@ -1,4 +1,8 @@
 This result highlights the significant difference of omega (dN/dS: non-synonymous substitution rate/synonymous substitution rate) between repeat-containing genes and genes without repeats across various clades of Tetrapoda.
+Please note:
+We have zipped the file "omega_species_without_repeats_final" because of its large size. Please run the following command on your terminal before proceeding further:
+unzip omega_species_without_repeats_final.zip
+
 
 To generate the figure, run the following command on your Linux terminal by being in the same directory as input files:
 1. To generate the omega figure (Supplementary figure) with all the omega combined:
