@@ -1,0 +1,11 @@
+This result highlights the significant difference of GC% between genes containing repeats and genes without repeats.
+
+Please note:
+We have zipped the file "gcpercompiled_allclades" due to its large size. Please run the following command before proceeding further:
+unzip gcpercompiled_allclades.zip
+
+To generate the result:
+Rscript gcpercent_boxplot.r
+
+Note:
+The above script is written in R language. The script require that you have R installed in your Linux system with the desired packages and is callable.
